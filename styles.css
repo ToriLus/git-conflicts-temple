@@ -2,7 +2,6 @@
   --font: system-ui;
   --max-width: 60ch;
   --body-padding: 2rem;
-
   --color-text: rgb(0, 0, 0, 0.9);
   --color-text-light: rgb(0, 0, 0, 0.6);
 }
@@ -18,4 +17,6 @@ footer {
   margin-top: 2rem;
   color: var(--color-text-light);
   font-size: 0.8rem;
+  width: min(100% - 2rem, 68ch);
+
 }
